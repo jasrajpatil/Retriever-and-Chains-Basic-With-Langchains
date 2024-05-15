@@ -1,0 +1,12 @@
+prefix=c:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library
+exec_prefix=c:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library
+libdir=c:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library/lib
+includedir=c:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

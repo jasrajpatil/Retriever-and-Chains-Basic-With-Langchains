@@ -1,0 +1,13 @@
+prefix=C:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library
+exec_prefix=C:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library
+libdir=C:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library/lib
+sharedlibdir=C:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library/lib
+includedir=C:/Users/jasra/OneDrive/Desktop/ChainRet/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
